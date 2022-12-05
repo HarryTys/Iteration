@@ -170,7 +170,6 @@ namespace C_Sharp_Strings
             float primeOrNot = float.Parse(Console.ReadLine());
             if (primeOrNot > 1)
             {
-                // ERROR rounds up large numbers for some reason
                 for (int x = 2; x < (int)Math.Ceiling(primeOrNot / 2); x++)
                 {
                     if (((int)Math.Ceiling(primeOrNot / 2) % x) == 0)
